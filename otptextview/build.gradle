@@ -1,11 +1,10 @@
 apply plugin: 'com.android.library'
-apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-android'
-group = 'com.github.aabhasjindal'
+apply plugin: 'kotlin-android-extensions'
 
 android {
     compileSdkVersion 31
-    buildToolsVersion '28.0.3'
+    buildToolsVersion '30.0.3'
 
     defaultConfig {
         minSdkVersion 15
